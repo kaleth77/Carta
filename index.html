@@ -1,0 +1,84 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Una carta para ti ❤️</title>
+
+  <!-- PREVIEW WHATSAPP -->
+  <meta property="og:title" content="Una carta para ti ❤️">
+  <meta property="og:description" content="No la abras antes del 30 de mayo...">
+  <meta property="og:image" content="preview.png">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PANTALLA BLOQUEADA -->
+  <div id="bloqueado">
+
+    <div class="overlay"></div>
+
+    <div class="contenido-bloqueado">
+
+      <h1>💌 Una carta para ti</h1>
+
+      <p class="mensaje">
+        Esta carta solo podrá abrirse el:
+      </p>
+
+      <h2>30 de Mayo - 00:00</h2>
+
+      <div id="contador">
+        00d 00h 00m 00s
+      </div>
+
+      <div class="sobre">
+        ✉️
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- CONTENIDO REAL -->
+  <div id="contenido" style="display:none;">
+
+    <!-- MÚSICA -->
+    <audio autoplay loop controls>
+      <source src="music/musica.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- TÍTULO -->
+    <h1 class="titulo">
+      Para ti ❤️
+    </h1>
+
+    <!-- CARTA -->
+    <div class="carta">
+
+      <p>
+        AQUÍ VAS A ESCRIBIR TU CARTA...
+      </p>
+
+    </div>
+
+    <!-- FOTOS -->
+    <div class="galeria">
+
+      <img src="fotos/foto1.jpg">
+      <img src="fotos/foto2.jpg">
+      <img src="fotos/foto3.jpg">
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
